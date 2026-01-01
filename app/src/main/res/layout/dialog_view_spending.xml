@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File Path: app/src/main/res/layout/dialog_view_spending.xml -->
+<!-- UPDATED: Added label TextViews for language switching -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="?attr/colorSurface">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="খরচের বিস্তারিত"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Amount Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvAmountLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পরিমাণ:"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="13sp"
+                android:alpha="0.7"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/tvViewAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorError"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:text="৳ 250" />
+        </LinearLayout>
+
+        <!-- Note Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvNoteLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বিবরণ:"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="13sp"
+                android:alpha="0.7"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/tvViewNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                tools:text="দুপুরের খাবার" />
+        </LinearLayout>
+
+        <!-- Date & Time Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDateLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="তারিখ:"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="13sp"
+                    android:alpha="0.7"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvViewDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="15sp"
+                    tools:text="2025-12-07" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTimeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="সময়:"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="13sp"
+                    android:alpha="0.7"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvViewTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textSize="15sp"
+                    tools:text="05:20 PM" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Image Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvImageLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ছবি:"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="13sp"
+                android:alpha="0.7"
+                android:layout_marginBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/ivViewImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="?attr/colorSurfaceVariant"
+                android:contentDescription="Spending Image"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Close Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClose"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বন্ধ করুন"
+            android:elevation="8dp" />
+
+    </LinearLayout>
+</ScrollView>

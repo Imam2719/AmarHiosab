@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark Theme -->
+    <style name="Theme.AmarHisab" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary - Bright Blue -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container_dark</item>
+
+        <!-- Secondary - Bright Cyan -->
+        <item name="colorSecondary">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/on_secondary_dark</item>
+        <item name="colorSecondaryContainer">@color/secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container_dark</item>
+
+        <!-- Tertiary - Bright Teal -->
+        <item name="colorTertiary">@color/tertiary_dark</item>
+        <item name="colorOnTertiary">@color/on_tertiary_dark</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container_dark</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container_dark</item>
+
+        <!-- Error - Light Red -->
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOnError">@color/on_error_dark</item>
+        <item name="colorErrorContainer">@color/error_container_dark</item>
+        <item name="colorOnErrorContainer">@color/on_error_container_dark</item>
+
+        <!-- Surfaces & Backgrounds -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorOnBackground">@color/on_background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_dark</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline_dark</item>
+
+        <!-- Status Bar & Nav Bar -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="Widget.Material3.Chip.Suggestion" parent="Widget.Material3.Chip.Suggestion">
+        <item name="chipBackgroundColor">?attr/colorSurfaceVariant</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">?attr/colorOutline</item>
+        <item name="android:textSize">13sp</item>
+        <item name="chipMinHeight">32dp</item>
+    </style>
+</resources>

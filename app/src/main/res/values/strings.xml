@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">আমার হিসাব</string>
+    <string name="app_name_bn">আমার হিসাব</string>
+    <string name="app_name_en">My Expense</string>
+
+    <!-- Days of Week -->
+    <string name="day_monday_bn">সোমবার</string>
+    <string name="day_monday_en">Monday</string>
+    <string name="day_tuesday_bn">মঙ্গলবার</string>
+    <string name="day_tuesday_en">Tuesday</string>
+    <string name="day_wednesday_bn">বুধবার</string>
+    <string name="day_wednesday_en">Wednesday</string>
+    <string name="day_thursday_bn">বৃহস্পতিবার</string>
+    <string name="day_thursday_en">Thursday</string>
+    <string name="day_friday_bn">শুক্রবার</string>
+    <string name="day_friday_en">Friday</string>
+    <string name="day_saturday_bn">শনিবার</string>
+    <string name="day_saturday_en">Saturday</string>
+    <string name="day_sunday_bn">রবিবার</string>
+    <string name="day_sunday_en">Sunday</string>
+
+    <!-- Short Days -->
+    <string name="day_mon_bn">সোম</string>
+    <string name="day_mon_en">Mon</string>
+    <string name="day_tue_bn">মঙ্গল</string>
+    <string name="day_tue_en">Tue</string>
+    <string name="day_wed_bn">বুধ</string>
+    <string name="day_wed_en">Wed</string>
+    <string name="day_thu_bn">বৃহ</string>
+    <string name="day_thu_en">Thu</string>
+    <string name="day_fri_bn">শুক্র</string>
+    <string name="day_fri_en">Fri</string>
+    <string name="day_sat_bn">শনি</string>
+    <string name="day_sat_en">Sat</string>
+    <string name="day_sun_bn">রবি</string>
+    <string name="day_sun_en">Sun</string>
+
+    <!-- Months -->
+    <string name="month_january_bn">জানুয়ারি</string>
+    <string name="month_january_en">January</string>
+    <string name="month_february_bn">ফেব্রুয়ারি</string>
+    <string name="month_february_en">February</string>
+    <string name="month_march_bn">মার্চ</string>
+    <string name="month_march_en">March</string>
+    <string name="month_april_bn">এপ্রিল</string>
+    <string name="month_april_en">April</string>
+    <string name="month_may_bn">মে</string>
+    <string name="month_may_en">May</string>
+    <string name="month_june_bn">জুন</string>
+    <string name="month_june_en">June</string>
+    <string name="month_july_bn">জুলাই</string>
+    <string name="month_july_en">July</string>
+    <string name="month_august_bn">আগস্ট</string>
+    <string name="month_august_en">August</string>
+    <string name="month_september_bn">সেপ্টেম্বর</string>
+    <string name="month_september_en">September</string>
+    <string name="month_october_bn">অক্টোবর</string>
+    <string name="month_october_en">October</string>
+    <string name="month_november_bn">নভেম্বর</string>
+    <string name="month_november_en">November</string>
+    <string name="month_december_bn">ডিসেম্বর</string>
+    <string name="month_december_en">December</string>
+
+    <!-- Main Screen -->
+    <string name="daily_spending_bn">আজকের খরচ</string>
+    <string name="daily_spending_en">Today\'s Spending</string>
+    <string name="monthly_spending_bn">এই মাসের খরচ</string>
+    <string name="monthly_spending_en">This Month\'s Spending</string>
+    <string name="spending_list_bn">খরচের তালিকা</string>
+    <string name="spending_list_en">Spending List</string>
+    <string name="add_spending_bn">খরচ যোগ করুন</string>
+    <string name="add_spending_en">Add Spending</string>
+    <string name="empty_state_bn">কোনো খরচ যোগ করা হয়নি</string>
+    <string name="empty_state_en">No spending added yet</string>
+
+    <!-- Chart -->
+    <string name="chart_title_bn">খরচের পরিসংখ্যান</string>
+    <string name="chart_title_en">Spending Statistics</string>
+    <string name="highest_spending_bn">সবচেয়ে বেশি খরচ</string>
+    <string name="highest_spending_en">Highest Spending</string>
+
+    <!-- Filter Options -->
+    <string name="filter_daily_bn">দৈনিক</string>
+    <string name="filter_daily_en">Daily</string>
+    <string name="filter_weekly_bn">সাপ্তাহিক</string>
+    <string name="filter_weekly_en">Weekly</string>
+    <string name="filter_monthly_bn">মাসিক</string>
+    <string name="filter_monthly_en">Monthly</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title_bn">নতুন খরচ যোগ করুন</string>
+    <string name="dialog_title_en">Add New Spending</string>
+    <string name="dialog_edit_title_bn">খরচ সম্পাদনা করুন</string>
+    <string name="dialog_edit_title_en">Edit Spending</string>
+    <string name="amount_hint_bn">খরচের পরিমাণ (৳)</string>
+    <string name="amount_hint_en">Amount (৳)</string>
+    <string name="note_hint_bn">বিবরণ / নোট</string>
+    <string name="note_hint_en">Description / Note</string>
+    <string name="quick_select_bn">দ্রুত নির্বাচন:</string>
+    <string name="quick_select_en">Quick Select:</string>
+    <string name="auto_added_bn">স্বয়ংক্রিয়ভাবে যুক্ত হবে:</string>
+    <string name="auto_added_en">Will be added automatically:</string>
+    <string name="save_bn">সংরক্ষণ করুন</string>
+    <string name="save_en">Save</string>
+    <string name="cancel_bn">বাতিল</string>
+    <string name="cancel_en">Cancel</string>
+    <string name="close_bn">বন্ধ করুন</string>
+    <string name="close_en">Close</string>
+
+    <!-- Image Section -->
+    <string name="image_section_title_bn">ছবি যোগ করুন (ঐচ্ছিক)</string>
+    <string name="image_section_title_en">Add Image (Optional)</string>
+    <string name="select_image_bn">ছবি নির্বাচন</string>
+    <string name="select_image_en">Select Image</string>
+    <string name="remove_image_bn">মুছে ফেলুন</string>
+    <string name="remove_image_en">Remove</string>
+    <string name="camera_option_bn">ক্যামেরা</string>
+    <string name="camera_option_en">Camera</string>
+    <string name="gallery_option_bn">গ্যালারি</string>
+    <string name="gallery_option_en">Gallery</string>
+
+    <!-- Date & Time -->
+    <string name="date_label_bn">তারিখ:</string>
+    <string name="date_label_en">Date:</string>
+    <string name="time_label_bn">সময়:</string>
+    <string name="time_label_en">Time:</string>
+    <string name="auto_filled_bn">স্বয়ংক্রিয়ভাবে যুক্ত হবে:</string>
+    <string name="auto_filled_en">Will be added automatically:</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_food_bn">খাবার</string>
+    <string name="suggestion_food_en">Food</string>
+    <string name="suggestion_breakfast_bn">নাস্তা</string>
+    <string name="suggestion_breakfast_en">Breakfast</string>
+    <string name="suggestion_lunch_bn">দুপুরের খাবার</string>
+    <string name="suggestion_lunch_en">Lunch</string>
+    <string name="suggestion_dinner_bn">রাতের খাবার</string>
+    <string name="suggestion_dinner_en">Dinner</string>
+    <string name="suggestion_tea_bn">চা/স্ন্যাকস</string>
+    <string name="suggestion_tea_en">Tea/Snacks</string>
+    <string name="suggestion_groceries_bn">বাজার</string>
+    <string name="suggestion_groceries_en">Groceries</string>
+    <string name="suggestion_transport_bn">যাতায়াত</string>
+    <string name="suggestion_transport_en">Transport</string>
+    <string name="suggestion_medicine_bn">ওষুধ</string>
+    <string name="suggestion_medicine_en">Medicine</string>
+    <string name="suggestion_other_bn">অন্যান্য</string>
+    <string name="suggestion_other_en">Other</string>
+
+    <!-- View Details -->
+    <string name="view_details_title_bn">খরচের বিস্তারিত</string>
+    <string name="view_details_title_en">Spending Details</string>
+    <string name="amount_label_bn">পরিমাণ:</string>
+    <string name="amount_label_en">Amount:</string>
+    <string name="description_label_bn">বিবরণ:</string>
+    <string name="description_label_en">Description:</string>
+    <string name="image_label_bn">ছবি:</string>
+    <string name="image_label_en">Image:</string>
+
+    <!-- Recycle Bin -->
+    <string name="recycle_bin_title_bn">রিসাইকেল বিন</string>
+    <string name="recycle_bin_title_en">Recycle Bin</string>
+    <string name="recycle_bin_info_bn">মুছে ফেলা খরচগুলো এখানে দেখতে পারবেন। পুনরুদ্ধার বা স্থায়ীভাবে মুছে ফেলতে পারবেন।</string>
+    <string name="recycle_bin_info_en">View deleted expenses here. You can restore or permanently delete them.</string>
+    <string name="bin_empty_bn">রিসাইকেল বিন খালি</string>
+    <string name="bin_empty_en">Recycle bin is empty</string>
+    <string name="restore_bn">পুনরুদ্ধার করুন</string>
+    <string name="restore_en">Restore</string>
+    <string name="delete_permanent_bn">স্থায়ীভাবে মুছুন</string>
+    <string name="delete_permanent_en">Delete Permanently</string>
+    <string name="delete_confirm_title_bn">স্থায়ীভাবে মুছে ফেলতে চান?</string>
+    <string name="delete_confirm_title_en">Delete Permanently?</string>
+    <string name="delete_confirm_msg_bn">এটি স্থায়ীভাবে মুছে ফেলা হবে এবং পুনরুদ্ধার করা যাবে না।</string>
+    <string name="delete_confirm_msg_en">This will be permanently deleted and cannot be recovered.</string>
+    <string name="yes_bn">হ্যাঁ</string>
+    <string name="yes_en">Yes</string>
+    <string name="no_bn">না</string>
+    <string name="no_en">No</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_amount_required_bn">দয়া করে পরিমাণ লিখুন</string>
+    <string name="toast_amount_required_en">Please enter amount</string>
+    <string name="toast_note_required_bn">দয়া করে বিবরণ লিখুন</string>
+    <string name="toast_note_required_en">Please enter description</string>
+    <string name="toast_saved_bn">সংরক্ষণ সফল হয়েছে</string>
+    <string name="toast_saved_en">Saved successfully</string>
+    <string name="toast_updated_bn">আপডেট সফল হয়েছে</string>
+    <string name="toast_updated_en">Updated successfully</string>
+    <string name="toast_deleted_bn">মুছে ফেলা হয়েছে</string>
+    <string name="toast_deleted_en">Deleted</string>
+    <string name="toast_restored_bn">পুনরুদ্ধার করা হয়েছে</string>
+    <string name="toast_restored_en">Restored successfully</string>
+    <string name="toast_permanently_deleted_bn">স্থায়ীভাবে মুছে ফেলা হয়েছে</string>
+    <string name="toast_permanently_deleted_en">Permanently deleted</string>
+    <string name="toast_moved_to_bin_bn">রিসাইকেল বিনে সরানো হয়েছে</string>
+    <string name="toast_moved_to_bin_en">Moved to recycle bin</string>
+    <string name="toast_image_load_error_bn">ছবি লোড করতে সমস্যা হয়েছে</string>
+    <string name="toast_image_load_error_en">Failed to load image</string>
+    <string name="toast_permission_denied_bn">অনুমতি প্রত্যাখ্যাত হয়েছে</string>
+    <string name="toast_permission_denied_en">Permission denied</string>
+
+    <!-- Button Actions -->
+    <string name="view_bn">দেখুন</string>
+    <string name="view_en">View</string>
+    <string name="edit_bn">সম্পাদনা করুন</string>
+    <string name="edit_en">Edit</string>
+    <string name="delete_bn">মুছে ফেলুন</string>
+    <string name="delete_en">Delete</string>
+
+    <!-- Settings -->
+    <string name="theme_toggle_bn">থিম</string>
+    <string name="theme_toggle_en">Theme</string>
+    <string name="language_toggle_bn">ভাষা</string>
+    <string name="language_toggle_en">Language</string>
+    <string name="light_mode_bn">উজ্জ্বল</string>
+    <string name="light_mode_en">Light</string>
+    <string name="dark_mode_bn">অন্ধকার</string>
+    <string name="dark_mode_en">Dark</string>
+
+    <!-- Currency -->
+    <string name="currency_symbol">৳</string>
+    <string name="currency_format">৳ %s</string>
+
+    <!-- Week Label -->
+    <string name="week_label_bn">সপ্তাহ</string>
+    <string name="week_label_en">Week</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_theme_toggle">থিম পরিবর্তন</string>
+    <string name="cd_language_toggle">ভাষা পরিবর্তন</string>
+    <string name="cd_delete">মুছে ফেলুন</string>
+    <string name="cd_date">তারিখ</string>
+    <string name="cd_time">সময়</string>
+    <string name="cd_no_data">কোনো তথ্য নেই</string>
+    <string name="cd_recycle_bin">রিসাইকেল বিন</string>
+    <string name="cd_add_spending">খরচ যোগ করুন</string>
+
+    <string name="calculator_title_bn">ক্যালকুলেটর</string>
+    <string name="calculator_title_en">Calculator</string>
+    <string name="calculator_subtitle_bn">স্ট্যান্ডার্ড ক্যালকুলেটর</string>
+    <string name="calculator_subtitle_en">Standard Calculator</string>
+    <string name="calculator_history_bn">হিসাবের ইতিহাস</string>
+    <string name="calculator_history_en">Calculation History</string>
+    <string name="calculator_clear_history_bn">সব মুছুন</string>
+    <string name="calculator_clear_history_en">Clear All</string>
+    <string name="calculator_no_history_bn">কোনো ইতিহাস নেই</string>
+    <string name="calculator_no_history_en">No history</string>
+    <string name="calculator_history_cleared_bn">ইতিহাস মুছে ফেলা হয়েছে</string>
+    <string name="calculator_history_cleared_en">History cleared</string>
+    <string name="calculator_clear_confirm_bn">সব ইতিহাস মুছে ফেলবেন?</string>
+    <string name="calculator_clear_confirm_en">Clear all history?</string>
+    <string name="calculator_divide_by_zero_bn">শূন্য দিয়ে ভাগ করা যায় না</string>
+    <string name="calculator_divide_by_zero_en">Cannot divide by zero</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_calculator">ক্যালকুলেটর</string>
+    <string name="cd_calculator_history">হিসাবের ইতিহাস</string>
+
+    <string name="income_expense_title">আয়/ব্যয়</string>
+    <string name="income_tab">আয়</string>
+    <string name="expense_tab">ব্যয়</string>
+    <string name="total_income">মোট আয়</string>
+    <string name="total_expense">মোট ব্যয়</string>
+    <string name="net_balance">শুদ্ধ ভারসাম্য</string>
+    <string name="add_category">ক্যাটাগরি যোগ করুন</string>
+    <string name="category_name">ক্যাটাগরির নাম</string>
+    <string name="select_category">ক্যাটাগরি নির্বাচন করুন</string>
+    <string name="custom_categories">কাস্টম ক্যাটাগরি</string>
+    <string name="family">পরিবার</string>
+    <string name="market">বাজার</string>
+    <string name="medical">মেডিকেল</string>
+    <string name="salary">বেতন</string>
+    <string name="business">ব্যবসা</string>
+    <string name="other_income">অন্যান্য আয়</string>
+</resources>

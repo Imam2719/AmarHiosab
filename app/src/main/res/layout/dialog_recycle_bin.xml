@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File Path: app/src/main/res/layout/dialog_recycle_bin.xml -->
+<!-- UPDATED: Added title and info TextViews for language switching -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?attr/colorSurface">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvRecycleBinTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="রিসাইকেল বিন"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Info Text -->
+    <TextView
+        android:id="@+id/tvRecycleBinInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মুছে ফেলা খরচগুলো এখানে দেখতে পারবেন। পুনরুদ্ধার বা স্থায়ীভাবে মুছে ফেলতে পারবেন।"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="14sp"
+        android:alpha="0.7"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecycleBin"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Close Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCloseRecycleBin"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বন্ধ করুন"
+        android:textColor="?attr/colorPrimary" />
+
+</LinearLayout>

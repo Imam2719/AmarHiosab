@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardSpendingItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:strokeWidth="0dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp">
+
+        <!-- Amount with Icon Background -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardAmount"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="?attr/colorErrorContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:contentDescription="Amount"
+                    android:tint="?attr/colorError"
+                    android:alpha="0.7" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- ✅ ADD IMAGE PREVIEW HERE -->
+        <ImageView
+            android:id="@+id/ivItemImage"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:background="?attr/colorSurfaceVariant"
+            android:visibility="gone"
+            android:contentDescription="Spending Image"
+            app:layout_constraintStart_toEndOf="@id/cardAmount"
+            app:layout_constraintEnd_toStartOf="@id/llActions"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Content Section -->
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@id/cardAmount"
+            app:layout_constraintEnd_toStartOf="@id/llActions"
+            app:layout_constraintTop_toBottomOf="@id/ivItemImage">
+
+            <!-- Amount Text -->
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorError"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.02"
+                tools:text="৳ 250" />
+
+            <!-- Note Text -->
+            <TextView
+                android:id="@+id/tvNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="14sp"
+                android:alpha="0.8"
+                tools:text="দুপুরের খাবার" />
+
+            <!-- Date and Time with Icons -->
+            <LinearLayout
+                android:id="@+id/layoutDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:spacing="12dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:spacing="4dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:contentDescription="Date"
+                        android:src="@android:drawable/ic_menu_my_calendar"
+                        android:alpha="0.6"
+                        android:tint="?attr/colorOnSurfaceVariant" />
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textSize="11sp"
+                        android:alpha="0.7"
+                        tools:text="2025-12-07" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:spacing="4dp">
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:contentDescription="Time"
+                        android:src="@android:drawable/ic_menu_recent_history"
+                        android:alpha="0.6"
+                        android:tint="?attr/colorOnSurfaceVariant" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:textSize="11sp"
+                        android:alpha="0.7"
+                        tools:text="05:20 PM" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:id="@+id/llActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:spacing="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- View Button -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorPrimary">
+
+                <ImageButton
+                    android:id="@+id/btnView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="View"
+                    android:src="@android:drawable/ic_menu_view"
+                    android:scaleType="centerInside"
+                    app:tint="?attr/colorOnPrimary" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Edit Button -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorSecondary">
+
+                <ImageButton
+                    android:id="@+id/btnEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Edit"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:scaleType="centerInside"
+                    app:tint="?attr/colorOnSecondary" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Delete Button -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:cardCornerRadius="11dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorErrorContainer">
+
+                <ImageButton
+                    android:id="@+id/btnDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Delete"
+                    android:src="@android:drawable/ic_menu_delete"
+                    android:scaleType="centerInside"
+                    app:tint="?attr/colorError" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

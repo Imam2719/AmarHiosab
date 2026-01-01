@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File Path: app/src/main/res/drawable/ic_theme_light.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Sun Circle -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M12,7a5,5 0,1,1 0,10a5,5 0,1,1 0,-10" />
+
+    <!-- Sun Rays -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:strokeWidth="1.5"
+        android:strokeColor="?attr/colorPrimary"
+        android:pathData="M12,1v3M12,20v3M4.2,4.2l2.1,2.1M17.7,17.7l2.1,2.1M1,12h3M20,12h3M4.2,19.8l2.1,-2.1M17.7,6.3l2.1,-2.1" />
+</vector>

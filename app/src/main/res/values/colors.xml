@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File Path: app/src/main/res/values/colors.xml -->
+<resources>
+    <!-- ==================== PRIMARY COLORS ==================== -->
+    <color name="primary_light">#64B5FF</color>
+    <color name="on_primary_light">#001F3F</color>
+    <color name="primary_container_light">#0059B3</color>
+    <color name="on_primary_container_light">#B3E5FF</color>
+
+    <!-- ==================== SECONDARY COLORS ==================== -->
+    <color name="secondary_light">#4FD9E8</color>
+    <color name="on_secondary_light">#003640</color>
+    <color name="secondary_container_light">#004D5C</color>
+    <color name="on_secondary_container_light">#B2EBF2</color>
+
+    <!-- ==================== TERTIARY COLORS ==================== -->
+    <color name="tertiary_light">#4FFBDF</color>
+    <color name="on_tertiary_light">#001F19</color>
+    <color name="tertiary_container_light">#005048</color>
+    <color name="on_tertiary_container_light">#A7FFEB</color>
+
+    <!-- ==================== ERROR COLORS ==================== -->
+    <color name="error_light">#FF9999</color>
+    <color name="on_error_light">#5D0000</color>
+    <color name="error_container_light">#B71C1C</color>
+    <color name="on_error_container_light">#FFEBEE</color>
+
+    <!-- ==================== SURFACE COLORS ==================== -->
+    <color name="background_light">#F5F7FA</color>
+    <color name="on_background_light">#1A1C1E</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#1A1C1E</color>
+    <color name="surface_variant_light">#E8EEF7</color>
+    <color name="on_surface_variant_light">#4A5A6A</color>
+
+    <!-- ==================== OUTLINE ==================== -->
+    <color name="outline_light">#7A8A9A</color>
+
+    <!-- ==================== CUSTOM PREMIUM COLORS ==================== -->
+    <color name="card_action_background">#F0F8FF</color>
+    <color name="card_text_primary">#1A1C1E</color>
+    <color name="card_text_secondary">#4A5A6A</color>
+    <color name="premium_shadow">#0000000F</color>
+    <color name="premium_overlay">#F5F7FA</color>
+
+    <!-- ==================== STANDARD COLORS ==================== -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- ==================== DARK MODE ALIASES ==================== -->
+    <color name="primary_dark">#64B5FF</color>
+    <color name="on_primary_dark">#001F3F</color>
+    <color name="primary_container_dark">#0059B3</color>
+    <color name="on_primary_container_dark">#B3E5FF</color>
+
+    <color name="secondary_dark">#4FD9E8</color>
+    <color name="on_secondary_dark">#003640</color>
+    <color name="secondary_container_dark">#004D5C</color>
+    <color name="on_secondary_container_dark">#B2EBF2</color>
+
+    <color name="tertiary_dark">#4FFBDF</color>
+    <color name="on_tertiary_dark">#001F19</color>
+    <color name="tertiary_container_dark">#005048</color>
+    <color name="on_tertiary_container_dark">#A7FFEB</color>
+
+    <color name="error_dark">#FF9999</color>
+    <color name="on_error_dark">#5D0000</color>
+    <color name="error_container_dark">#B71C1C</color>
+    <color name="on_error_container_dark">#FFEBEE</color>
+
+    <color name="background_dark">#0A1F3F</color>
+    <color name="on_background_dark">#E0F2F7</color>
+    <color name="surface_dark">#0F2A47</color>
+    <color name="on_surface_dark">#E0F2F7</color>
+    <color name="surface_variant_dark">#1A5F7F</color>
+    <color name="on_surface_variant_dark">#B2D9E8</color>
+
+    <color name="outline_dark">#7FA8C4</color>
+
+
+    <color name="income_gradient_start">#4CAF50</color>
+    <color name="income_gradient_end">#2E7D32</color>
+    <color name="expense_gradient_start">#FF6B6B</color>
+    <color name="expense_gradient_end">#C92A2A</color>
+    <color name="category_1">#FF6B6B</color>
+    <color name="category_2">#4ECDC4</color>
+    <color name="category_3">#45B7D1</color>
+    <color name="category_4">#FFA07A</color>
+    <color name="category_5">#98D8C8</color>
+    <color name="category_6">#F7DC6F</color>
+
+    // ==================== DARK MODE COLORS ====================
+
+    <color name="income_gradient_start_dark">#66BB6A</color>
+    <color name="income_gradient_end_dark">#558B2F</color>
+    <color name="expense_gradient_start_dark">#EF5350</color>
+    <color name="expense_gradient_end_dark">#E53935</color>
+</resources>

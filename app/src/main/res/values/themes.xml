@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Theme -->
+    <style name="Theme.AmarHisab" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary - Sky Blue -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/on_primary_light</item>
+        <item name="colorPrimaryContainer">@color/primary_container_light</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container_light</item>
+
+        <!-- Secondary - Cyan -->
+        <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorOnSecondary">@color/on_secondary_light</item>
+        <item name="colorSecondaryContainer">@color/secondary_container_light</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container_light</item>
+
+        <!-- Tertiary - Teal -->
+        <item name="colorTertiary">@color/tertiary_light</item>
+        <item name="colorOnTertiary">@color/on_tertiary_light</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container_light</item>
+        <item name="colorOnTertiaryContainer">@color/on_tertiary_container_light</item>
+
+        <!-- Error - Red -->
+        <item name="colorError">@color/error_light</item>
+        <item name="colorOnError">@color/on_error_light</item>
+        <item name="colorErrorContainer">@color/error_container_light</item>
+        <item name="colorOnErrorContainer">@color/on_error_container_light</item>
+
+        <!-- Surfaces & Backgrounds -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/on_background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/on_surface_light</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_light</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_light</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/outline_light</item>
+
+        <!-- Status Bar & Nav Bar -->
+        <item name="android:statusBarColor">@color/primary_light</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="Widget.Material3.Chip.Suggestion" parent="Widget.Material3.Chip.Suggestion">
+        <item name="chipBackgroundColor">?attr/colorSurfaceVariant</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">?attr/colorOutline</item>
+        <item name="android:textSize">13sp</item>
+        <item name="chipMinHeight">32dp</item>
+    </style>
+</resources>
