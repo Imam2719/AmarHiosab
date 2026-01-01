@@ -110,7 +110,6 @@ The app solves the common problem of losing track of daily expenses by providing
 - **Storage**: For selecting images from gallery (optional)
 - **Runtime Permissions**: Proper permission handling for Android 6.0+
 
-
 ## 🛠️ Technology Stack
 
 ### **Frontend**
@@ -148,6 +147,7 @@ implementation 'com.google.android.material:material:1.11.0'
 // AndroidX Core
 implementation 'androidx.appcompat:appcompat:1.6.1'
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+```
 
 ### **Development Tools**
 
@@ -176,6 +176,7 @@ implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     ├── Date/Time formatters
     ├── Image handling (Camera/Gallery)
     └── Animation helpers
+```
 
 ### **Design Patterns**
 
@@ -186,6 +187,7 @@ implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
 ## 📦 Project Structure
 
+```
 AmarHisab/
 │
 ├── app/
@@ -223,6 +225,7 @@ AmarHisab/
 ├── build.gradle                                # Project-level build
 ├── settings.gradle                             # Project settings
 └── README.md                                   # This file
+```
 
 ## 🚀 Getting Started
 
@@ -270,7 +273,6 @@ AmarHisab/
 2. App switches between Light ↔ Dark mode
 3. App restarts automatically to apply theme
 
-
 ## 🎨 Design Philosophy
 
 ### Color Scheme
@@ -301,7 +303,6 @@ AmarHisab/
 - **Padding**: 16-24dp (outer), 12-18dp (inner)
 - **Margins**: 8-20dp between elements
 
-
 ## 🔄 Roadmap
 
 ### Version 1.0 (Current) ✅
@@ -329,7 +330,6 @@ AmarHisab/
 - [ ] Financial goals
 - [ ] Widget support
 - [ ] Wear OS companion app
-
 
 ## 🤝 Contributing
 
@@ -368,7 +368,7 @@ Contributions are welcome! Here's how you can help:
 - Keep functions focused and small
 - Write in both Bengali and English for user-facing strings
 
-**## 🙏 Acknowledgments**
+## 🙏 Acknowledgments
 
 - **MPAndroidChart**: Beautiful chart library by Philipp Jahoda
 - **Material Design**: Google's design system for Android
@@ -376,23 +376,20 @@ Contributions are welcome! Here's how you can help:
 - **Bengali Community**: For inspiration and feedback
 - **Stack Overflow**: For countless solutions during development
 
-
-**##Screenshots**
-
+## Screenshots
 
 ### 🏠 Home Screen
 <img width="202" height="438" alt="image" src="https://github.com/user-attachments/assets/d523452f-014f-4d17-8f46-7b66a5c269cb" />
 
 <img width="190" height="437" alt="image" src="https://github.com/user-attachments/assets/165a634d-956d-4b99-9a58-8bf5d6eba877" />
 
-
 ### 🧮 Calculator
 <img width="200" height="440" alt="image" src="https://github.com/user-attachments/assets/b834322e-848b-4e1e-9fed-f4e916822505" />
 
 <img width="199" height="442" alt="image" src="https://github.com/user-attachments/assets/6039dbe3-2a6e-44c0-8435-fe28b191fd5e" />
 
-
 ### 🗑️ Recycle Bin
 <img width="199" height="418" alt="image" src="https://github.com/user-attachments/assets/d6a30394-5f48-4dca-a589-19364fa8f73a" />
+
 
 
