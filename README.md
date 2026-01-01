@@ -223,7 +223,6 @@ AmarHisab/
 ├── build.gradle                                # Project-level build
 ├── settings.gradle                             # Project settings
 └── README.md                                   # This file
-```
 
 ## 🚀 Getting Started
 
