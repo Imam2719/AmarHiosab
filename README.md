@@ -438,7 +438,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ```
 
 
-## 🙏 Acknowledgments
+**## 🙏 Acknowledgments**
 
 - **MPAndroidChart**: Beautiful chart library by Philipp Jahoda
 - **Material Design**: Google's design system for Android
@@ -447,13 +447,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 - **Stack Overflow**: For countless solutions during development
 
 
-
-
-## 🌟 Star History
-
-
-
-## 📸 Screenshots
+**##Screenshots**
 
 
 ### 🏠 Home Screen
