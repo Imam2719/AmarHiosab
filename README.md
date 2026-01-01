@@ -16,8 +16,6 @@ The app solves the common problem of losing track of daily expenses by providing
 - **Beautiful UI**: Modern Material Design 3 with smooth animations
 - **Feature Rich**: Beyond basic tracking with calculator, charts, and more
 
----
-
 ## 🎯 Objectives
 
 ### Primary Objectives
@@ -53,8 +51,6 @@ The app solves the common problem of losing track of daily expenses by providing
    - Built-in calculator with history for quick calculations
    - Easy data export capabilities (future)
    - Category-based expense analysis (future)
-
----
 
 ## ✨ Features
 
@@ -114,7 +110,6 @@ The app solves the common problem of losing track of daily expenses by providing
 - **Storage**: For selecting images from gallery (optional)
 - **Runtime Permissions**: Proper permission handling for Android 6.0+
 
----
 
 ## 🛠️ Technology Stack
 
@@ -153,7 +148,6 @@ implementation 'com.google.android.material:material:1.11.0'
 // AndroidX Core
 implementation 'androidx.appcompat:appcompat:1.6.1'
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-```
 
 ### **Development Tools**
 
@@ -182,7 +176,6 @@ implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     ├── Date/Time formatters
     ├── Image handling (Camera/Gallery)
     └── Animation helpers
-```
 
 ### **Design Patterns**
 
@@ -191,11 +184,8 @@ implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 - **Observer Pattern**: UI updates on data changes
 - **Factory Pattern**: Activity launchers
 
----
-
 ## 📦 Project Structure
 
-```
 AmarHisab/
 │
 ├── app/
@@ -235,8 +225,6 @@ AmarHisab/
 └── README.md                                   # This file
 ```
 
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -245,40 +233,6 @@ AmarHisab/
 - **JDK**: Version 11 or higher
 - **Android SDK**: API Level 24 (Android 7.0) minimum
 - **Gradle**: 8.0 or higher (included in project)
-
-### Installation Steps
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/amar-hisab.git
-   cd amar-hisab
-   ```
-
-2. **Open in Android Studio**
-   - Launch Android Studio
-   - Select "Open an Existing Project"
-   - Navigate to the cloned directory
-   - Wait for Gradle sync to complete
-
-3. **Build the Project**
-   ```bash
-   ./gradlew build
-   ```
-
-4. **Run on Device/Emulator**
-   - Connect Android device (with USB debugging) or start an emulator
-   - Click "Run" button (▶) in Android Studio
-   - Select target device
-   - App will install and launch automatically
-
-### Configuration
-
-No additional configuration required! The app works out of the box with default settings:
-- Language: Bengali (বাংলা)
-- Theme: Light Mode
-- Database: Auto-created on first launch
-
----
 
 ## 📱 Usage Guide
 
@@ -317,7 +271,6 @@ No additional configuration required! The app works out of the box with default 
 2. App switches between Light ↔ Dark mode
 3. App restarts automatically to apply theme
 
----
 
 ## 🎨 Design Philosophy
 
@@ -349,7 +302,6 @@ No additional configuration required! The app works out of the box with default 
 - **Padding**: 16-24dp (outer), 12-18dp (inner)
 - **Margins**: 8-20dp between elements
 
----
 
 ## 🔄 Roadmap
 
@@ -379,7 +331,6 @@ No additional configuration required! The app works out of the box with default 
 - [ ] Widget support
 - [ ] Wear OS companion app
 
----
 
 ## 🤝 Contributing
 
@@ -417,26 +368,6 @@ Contributions are welcome! Here's how you can help:
 - Add comments for complex logic
 - Keep functions focused and small
 - Write in both Bengali and English for user-facing strings
-
----
-
-Copyright (c) 2025 Amar Hisab Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
 
 **## 🙏 Acknowledgments**
 
